@@ -1,0 +1,46 @@
+body{
+    background: black;
+    padding: 10px;
+    font-style: italic;
+}
+.title_box{
+    padding: 10px;
+    border: solid;
+    color: rgb(13, 93, 199);
+    font-size: 100%;
+}
+.title{
+    color: rgb(5, 203, 218); 
+    padding: 5px;
+    font-size: 100%;
+    font-weight: bolder;
+}
+
+.lista{
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(9, 204, 238);
+    
+    
+}
+.estilo_lista{
+    padding: 8px;
+}
+
+a{
+    text-decoration: none; 
+    color: rgb(28, 182, 209);
+    font-size: 20px;
+    margin: 25px;
+    text-align: justify;
+    font-weight: bold;
+    transition: background-color 0.5s;
+}
+a:hover{
+    background-color: rgb(67, 177, 228);
+}
+
+.recetas_box{
+    padding: 30px;
+}
