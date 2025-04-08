@@ -1,69 +1,101 @@
 body{
     background-color: rgb(0, 0, 0);
-    color: white;
+    color: #bff5ff;
     padding: 10px;
     font-style: italic;
-    font-family: sans-serif;
+    font-family: sans-serif; 
 }
 .referencias{
+    margin: auto;
     align-items: center;
     padding: 10px;
-    border: solid 2px;
-    color: rgb(129, 0, 250);
+    border: solid 2px #00ffff;
+    box-shadow: 0 0 5px 0 #00ffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    
+    
+}
+.referencias .block_refer{
+    align-content: center;
+    align-items: center;
+    
     
 }
 a{
+    color: #bff5ff;
     text-decoration: none;
-    color: white;
     font-weight: bold;
     padding: 10px;
-    margin: solid;
+    margin: 0 auto;
+    font-size: 15px;
+    font-size: 15px;
     
 }
+
+
 a:hover{
-    background-color: rgb(133, 2, 255);
+    background-color: #00ffff54;
+    border-radius: 8px;
     
 }
 
 button{
-    background-color: rgb(133, 2, 255);
-    color: white;
+    background-color: transparent;
+    border: 2px solid transparent;
     height: 55px;
-    height: 45px;
+    width: 250px;
+    margin: 0;
 }
 
 h1{
-    color: rgb(255, 255, 255);
     text-align: center;
     text-justify: auto;
     padding: 10px;
-    border: solid rgb(133, 2, 255) 2px;
+    border: 2px solid #00ffff;
+    box-shadow: 0 0 5px 0#00ffff;
+}
+.container_image{
+    border: 2px solid #00ffff;
+    box-shadow: 0 0 5px 0 #00ffff;
 }
 img{
     display: block;
-    padding: 30px;
-    margin: auto;
-    align-content: baseline;
-    border: solid rgb(133, 2, 255) 2px;
+    padding: 15px 15px 15px 15;
+    margin: 0 auto;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.paragraph{
+    border:2px solid #00ffff;
+    box-shadow: 0 0 5px #00ffff;
+    padding: 15px;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 p{
     padding: 15px;
     margin: 15px;
-    border: solid;
-    border-color: rgb(133, 2, 255);;
-
 }
+.items, .steps{
+    border: 2px solid #00ffff;
+    margin-top: 20px;
+    box-shadow: 0 0 5px #00ffff;
+}
+
 .lista{
     padding: 30px;
     margin: 15px;
-    border: solid;
-    border-color: rgb(133, 2, 255);
-    color: rgba(249, 255, 243, 0.856);
 }
+
+
 h3{
     padding: 15px;
     margin: 15px;
-    border: solid;
-    border-color: rgb(133, 2, 255);
     text-align: center;
+    border-bottom: 2px solid #00ffff;
 }
+
+

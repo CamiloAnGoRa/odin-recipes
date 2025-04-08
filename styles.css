@@ -1,51 +1,71 @@
 body{
+    color: #bff5ff;
     background: black;
     padding: 10px;
     font-style: italic;
 }
+.container-content{
+    border: 1px solid #00ffff;
+    box-shadow: 0 0 5px 0 #00ffff;
+    padding: 25px;
+    border-radius: 8px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+}
 .title_box{
     padding: 10px;
-    border: solid;
-    color: rgb(107, 211, 236);
+    border: solid #00ffff;
     font-size: 100%;
-    background-color: rgba(145, 29, 253, 0.856);
+    background-color: #00ffff2d;
+    box-shadow: 0 0 5px 0 #00ffff;
 }
 .title{
-    color: rgb(219, 243, 245); 
     padding: 5px;
-    font-size: 100%;
+    font-size: 25px;
     font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+    text-shadow: 0 0 3px #bff5ff;
 }
+
 
 .lista{
     text-decoration: none;
     padding: 10px;
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(198, 212, 214);
-    
+    list-style: none;
     
 }
-.estilo_lista{
-    padding: 15px;
+.lista .estilo_lista{
+    padding: 5px;
+    text-align: center;
+    margin: 10px;
 }
 
 a{
     text-decoration: none; 
-    color: rgb(191, 245, 255);
+    color: #bff5ff;
     font-size: 20px;
-    margin: 25px;
-    text-align: justify;
+    margin: 25px auto;
     font-weight: bold;
-    transition: background-color 0.5s;
+    transition: #00ffff34 0.5s;
+    padding: 0 100px 0 100px;
+    text-shadow: 0 0 2px #bff5ff;
 }
 a:hover{
-    background-color: rgba(74, 233, 212, 0.253);
+    background-color: #00ffff11;
+    border: 1px solid #00ffff79;
+    border-radius: 8px;
 }
 
 .recetas_box{
     padding: 2%;
     border: solid;
-    background-color: rgba(145, 29, 253, 0.856);
+    background-color: #00ffff2d;
     margin-top: 20px;
     color: rgb(0, 248, 248);
+    box-shadow: 0 0 5px 0 #00ffff;
 }
